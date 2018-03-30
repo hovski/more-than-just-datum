@@ -16,54 +16,54 @@
       <div class="grid">
         <div class="unit">
           <div>
-            <img class="embed img-flex" src="images/logo.svg" alt="…"><!-- logo -->
-        </div>
+            <img class="embed img-flex" src="images/logo.svg" alt="…"><!-- logo (adjust the size and placement) -->
+          </div>
         </div>
         <div class="unit">
-          <div class="unit push xs-1 s-1 m-1-2 l-1-2 pad-r">
-            <label class="" for="search"></label>
-            <input class="" id="search" type="search" name="search"><!-- search bar -->
-          </div>
+          <form class="relative" action="#" method="POST">
+            <label for="search"><i class="icon i-18"><img src="images/search.svg" alt="search"></i></label> <!-- add position relative/absolute to get icon to float on the bar-->
+            <input id="search" type="search" name="search" value="" required><!-- search bar -->
+          </form>
         </div>
       </div>
     </header>
-    <!-- next grid unit is within main -->
-  <main>
-    <div class="grid"><!-- container holding in grid under header -->
-      <div class="unit"><!--- contains the left side of the page of content-->
-        <div>
-          <h2>Nearest playgrounds</h2>
-          <dl class="grey">
-            <dt>373</dt>
-            <dt>Distance</dt>
-            <dd>0.75 km</dd>
-          </dl>
+    <!-- next grid unit | Side panel -->
+    <main>
+      <div class="grid"><!-- container holding in grid under header -->
+        <div class="unit"><!--- contains the left side of the page of content-->
+          <div>
+            <h2>Nearest playgrounds</h2>
+            <dl class="grey"><!-- box content on left--->
+              <dt>373</dt>
+              <dt>Distance</dt>
+              <dd>0.75 km</dd>
+            </dl>
+          </div>
+
+          <div>
+            <dl class="grey">
+              <dt>1700</dt><!-- box content on left--->
+              <dt>Distance</dt>
+              <dd>2.58 km</dd>
+            </dl>
+          </div>
+
+          <div>
+            <dl class="grey"><!-- box content on left--->
+              <dt>960</dt>
+              <dt>Distance</dt>
+              <dd>3.03 km</dd>
+            </dl>
+          </div>
         </div>
 
-        <div>
-          <dl class="grey">
-            <dt>1700</dt>
-            <dt>Distance</dt> <!-- box content on left--->
-            <dd>2.58 km</dd>
-          </dl>
-        </div>
-
-        <div>
-          <dl class="grey">
-            <dt>960</dt>
-            <dt>Distance</dt>
-            <dd>3.03 km</dd>
-          </dl>
-        </div>
-      </div>
-
-      <div class="unit"><!--- contains the table-->
-        <div>
-          <table>
-            <caption>Playgrounds in the city</caption>
-            <thead>
+        <div class="unit"><!--- contains the table-->
+          <div>
+            <table>
+              <caption>Playgrounds in the city</caption>
+              <thead>
                 <tr>
-                  <th class="id" scope="col">Park ID</th>
+                  <th class="id" scope="col">Park ID</th><!--- top row--->
                   <th class="ptype" scope="col">Park type</th>
                   <th class="agroup" scope="col">Age group</th>
                   <th class="swing" scope="col">Swings</th>
@@ -76,286 +76,286 @@
               <tbody>
                 <tr>
                   <th scope="row">545</th>
-                    <td>Play area</td>
-                    <td>Junior</td>
-                    <td>Yes</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
+                  <td>Play area</td>
+                  <td>Junior</td>
+                  <td>Yes</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
                 </tr>
-  <!-- above is row 1 -->
+                <!-- above is row 1 -->
                 <tr>
                   <th scope="row">545</th>
-                    <td>Play area</td>
-                    <td>Toddler</td>
-                    <td>Yes</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
+                  <td>Play area</td>
+                  <td>Toddler</td>
+                  <td>Yes</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
                 </tr>
-  <!-- above is row 2 -->
+                <!-- above is row 2 -->
                 <tr>
                   <th scope="row">140</th>
-                    <td>Play structure</td>
-                    <td>Junior</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
+                  <td>Play structure</td>
+                  <td>Junior</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
                 </tr>
-  <!-- above is row 3 -->
+                <!-- above is row 3 -->
                 <tr>
                   <th scope="row">376</th>
-                    <td>Play area</td>
-                    <td>Toddler</td>
-                    <td>Yes</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
+                  <td>Play area</td>
+                  <td>Toddler</td>
+                  <td>Yes</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
                 </tr>
-  <!-- above is row 4 -->
+                <!-- above is row 4 -->
                 <tr>
                   <th scope="row">373</th>
-                    <td>Play area</td>
-                    <td>Junior</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
+                  <td>Play area</td>
+                  <td>Junior</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
                 </tr>
-  <!-- above is row 5 -->
+                <!-- above is row 5 -->
                 <tr>
                   <th scope="row">310</th>
-                    <td>Play area</td>
-                    <td>Toddler</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>Yes</td>
+                  <td>Play area</td>
+                  <td>Toddler</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>Yes</td>
                 </tr>
 
-  <!-- above is row 6 -->
+                <!-- above is row 6 -->
                 <tr>
                   <th scope="row">1133</th>
-                    <td>Play area</td>
-                    <td>Toddler</td>
-                    <td>No</td>
-                    <td>Yes</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
+                  <td>Play area</td>
+                  <td>Toddler</td>
+                  <td>No</td>
+                  <td>Yes</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
                 </tr>
-  <!-- above is row 7 -->
+                <!-- above is row 7 -->
                 <tr>
                   <th scope="row">1032</th>
-                    <td>Play area</td>
-                    <td>Toddler</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
+                  <td>Play area</td>
+                  <td>Toddler</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
                 </tr>
-  <!-- above is row 8 -->
+                <!-- above is row 8 -->
                 <tr>
                   <th scope="row">1647</th>
-                    <td>Play area</td>
-                    <td>Toddler</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>Yes</td>
-                    <td>No</td>
-                    <td>No</td>
+                  <td>Play area</td>
+                  <td>Toddler</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>Yes</td>
+                  <td>No</td>
+                  <td>No</td>
                 </tr>
-  <!-- above is row 9 -->
+                <!-- above is row 9 -->
                 <tr>
                   <th scope="row">1700</th>
-                    <td>Play structure</td>
-                    <td>Junior</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>Yes</td>
-                    <td>No</td>
+                  <td>Play structure</td>
+                  <td>Junior</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>Yes</td>
+                  <td>No</td>
                 </tr>
-  <!-- above is row 10 -->
+                <!-- above is row 10 -->
                 <tr>
                   <th scope="row">1213</th>
-                    <td>Play structure</td>
-                    <td>Toddler</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
+                  <td>Play structure</td>
+                  <td>Toddler</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
                 </tr>
-  <!-- above is row 11 -->
+                <!-- above is row 11 -->
                 <tr>
                   <th scope="row">2452</th>
-                    <td>Play area</td>
-                    <td>Junior</td>
-                    <td>Yes</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
+                  <td>Play area</td>
+                  <td>Junior</td>
+                  <td>Yes</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
                 </tr>
-  <!-- above is row 12 -->
+                <!-- above is row 12 -->
                 <tr>
                   <th scope="row">1010</th>
-                    <td>Play area</td>
-                    <td>Toddler</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
+                  <td>Play area</td>
+                  <td>Toddler</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
                 </tr>
-  <!-- above is row 13 -->
+                <!-- above is row 13 -->
                 <tr>
                   <th scope="row">960</th>
-                    <td>Play structure</td>
-                    <td>Junior</td>
-                    <td>No</td>
-                    <td>Yes</td>
-                    <td>No</td>
-                    <td>Yes</td>
-                    <td>No</td>
+                  <td>Play structure</td>
+                  <td>Junior</td>
+                  <td>No</td>
+                  <td>Yes</td>
+                  <td>No</td>
+                  <td>Yes</td>
+                  <td>No</td>
                 </tr>
-  <!-- above is row 14 -->
+                <!-- above is row 14 -->
                 <tr>
                   <th scope="row">555</th>
-                    <td>Play structure</td>
-                    <td>Senior</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
+                  <td>Play structure</td>
+                  <td>Senior</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
                 </tr>
-  <!-- above is row 15 -->
+                <!-- above is row 15 -->
                 <tr>
                   <th scope="row">403</th>
-                    <td>Play structure</td>
-                    <td>Toddler</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
+                  <td>Play structure</td>
+                  <td>Toddler</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
                 </tr>
-  <!-- above is row 16 -->
+                <!-- above is row 16 -->
                 <tr>
                   <th scope="row">89</th>
-                    <td>Play area</td>
-                    <td>Junior</td>
-                    <td>Yes</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
+                  <td>Play area</td>
+                  <td>Junior</td>
+                  <td>Yes</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
                 </tr>
-  <!-- above is row 17 -->
+                <!-- above is row 17 -->
                 <tr>
                   <th scope="row">786</th>
-                    <td>Play area</td>
-                    <td>Toddler</td>
-                    <td>Yes</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
+                  <td>Play area</td>
+                  <td>Toddler</td>
+                  <td>Yes</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
                 </tr>
-  <!-- above is row 18 -->
+                <!-- above is row 18 -->
                 <tr>
                   <th scope="row">108</th>
-                    <td>Play structure</td>
-                    <td>Junior</td>
-                    <td>No</td>
-                    <td>Yes</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
+                  <td>Play structure</td>
+                  <td>Junior</td>
+                  <td>No</td>
+                  <td>Yes</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
                 </tr>
-  <!-- above is row 19 -->
+                <!-- above is row 19 -->
                 <tr>
                   <th scope="row">686</th>
-                    <td>Play structure</td>
-                    <td>Junior</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
+                  <td>Play structure</td>
+                  <td>Junior</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
                 </tr>
-  <!-- above is row 20 -->
+                <!-- above is row 20 -->
                 <tr>
-                    <th scope="row">1083</th>
-                    <td>Play area</td>
-                    <td>Toddler</td>
-                    <td>Yes</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
+                  <th scope="row">1083</th>
+                  <td>Play area</td>
+                  <td>Toddler</td>
+                  <td>Yes</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
                 </tr>
-  <!-- above is row 21 -->
+                <!-- above is row 21 -->
                 <tr>
-                    <th scope="row">806</th>
-                    <td>Play structure</td>
-                    <td>Senior</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>Yes</td>
-                    <td>No</td>
-                    <td>No</td>
+                  <th scope="row">806</th>
+                  <td>Play structure</td>
+                  <td>Senior</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>Yes</td>
+                  <td>No</td>
+                  <td>No</td>
                 </tr>
-  <!-- above is row 22 -->
+                <!-- above is row 22 -->
                 <tr>
-                    <th scope="row">1032</th>
-                    <td>Play area</td>
-                    <td>Toddler</td>
-                    <td>Yes</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
+                  <th scope="row">1032</th>
+                  <td>Play area</td>
+                  <td>Toddler</td>
+                  <td>Yes</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
                 </tr>
-  <!-- above is row 23 -->
+                <!-- above is row 23 -->
                 <tr>
-                    <th scope="row">65</th>
-                    <td>Play structure</td>
-                    <td>Toddler</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
+                  <th scope="row">65</th>
+                  <td>Play structure</td>
+                  <td>Toddler</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
                 </tr>
-  <!-- above is row 24 -->
+                <!-- above is row 24 -->
                 <tr>
-                    <th scope="row">609</th>
-                    <td>Play area</td>
-                    <td>Junior</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
-                    <td>No</td>
+                  <th scope="row">609</th>
+                  <td>Play area</td>
+                  <td>Junior</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
                 </tr>
               </tbody>
-<!-- above is row 25 -->
-          </table>
+              <!-- above is row 25 -->
+            </table>
+          </div>
         </div>
       </div>
     </div>
-</div>
   </main>
 </div>
 </body>
